@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://developer-blog-website.onrender/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://developer-blog-website.onrender.com/api',
 });
 
 api.interceptors.request.use(
