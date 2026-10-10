@@ -14,7 +14,7 @@ app.use(cors());
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://your-frontend.vercel.app'
+    'https://developer-blog-website.vercel.app/'
   ],
   credentials: true
 }));
